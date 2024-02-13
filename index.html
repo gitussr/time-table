@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LCA Time Table</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+  <div class="top">
+    <time></time> |
+    <span class="day"></span>
+  </div>
+  <img src="https://res.cloudinary.com/learncomputeracademy/image/upload/c_thumb,w_300,g_face/v1701951354/learncomputer.in/12_plqchp.png" alt="" />
+</header>
+<div class="cards">
+  <div class="card" data-day="MON">
+    <div class="th">10:30 - 12:30</div>
+    <div class="td">
+      <span>Ratnadeep</span>
+      <span>Suraj</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">12:30 - 02:30</div>
+    <div class="td">
+      <span>Ujjal</span>
+      <span>Bapi</span>
+      <span>Shatabdi</span>
+      <span>Priti</span>
+      <span>...</span>
+    </div>
+    <div class="th">04:00 - 06:00</div>
+    <div class="td">
+      <span>Mihir</span>
+      <span>Suman</span>
+      <span>Sathi</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">06:00 - 08:00</div>
+    <div class="td">
+      <span>Samaresh</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+  </div> <!-- .day 1 -->
+
+  <div class="card" data-day="TUE">
+    <div class="th">10:30 - 12:30</div>
+    <div class="td">
+      <span>Alok</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">12:30 - 02:30</div>
+    <div class="td">
+      <span>Bittu</span>
+      <span>Samiran</span>
+      <span>Simran</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">04:00 - 06:00</div>
+    <div class="td">
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">06:00 - 08:00</div>
+    <div class="td">
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+  </div> <!-- .day 2 -->
+
+  <div class="card" data-day="WED">
+    <div class="th">10:30 - 12:30</div>
+    <div class="td">
+      <span>Ratnadeep</span>
+      <span>Suraj</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">12:30 - 02:30</div>
+    <div class="td">
+      <span>Ujjal</span>
+      <span>Bapi</span>
+      <span>Shatabdi</span>
+      <span>Priti</span>
+      <span>...</span>
+    </div>
+    <div class="th">04:00 - 06:00</div>
+    <div class="td">
+      <span>Mihir</span>
+      <span>Suman</span>
+      <span>Sathi</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">06:00 - 08:00</div>
+    <div class="td">
+      <span>Samaresh</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+  </div> <!-- .day 3 -->
+
+  <div class="card" data-day="THU">
+    <div class="th">10:30 - 12:30</div>
+    <div class="td">
+      <span>Alok</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">12:30 - 02:30</div>
+    <div class="td">
+      <span>Bittu</span>
+      <span>Samiran</span>
+      <span>Simran</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">04:00 - 06:00</div>
+    <div class="td">
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">06:00 - 08:00</div>
+    <div class="td">
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+  </div> <!-- .day 4 -->
+
+  <div class="card" data-day="FRI">
+    <div class="th">10:30 - 12:30</div>
+    <div class="td">
+      <span>Ratnadeep</span>
+      <span>Suraj</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">12:30 - 02:30</div>
+    <div class="td">
+      <span>Ujjal</span>
+      <span>Bapi</span>
+      <span>Shatabdi</span>
+      <span>Priti</span>
+      <span>...</span>
+    </div>
+    <div class="th">04:00 - 06:00</div>
+    <div class="td">
+      <span>Mihir</span>
+      <span>Suman</span>
+      <span>Sathi</span>
+      <span>Simran</span>
+      <span>...</span>
+    </div>
+    <div class="th">06:00 - 08:00</div>
+    <div class="td">
+      <span>Samaresh</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+  </div> <!-- .day 3 -->
+
+  <div class="card" data-day="SAT">
+    <div class="th">10:30 - 12:30</div>
+    <div class="td">
+      <span>Alok</span>
+      <span>Mihir</span>
+      <span>Krishanu</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">12:30 - 02:30</div>
+    <div class="td">
+      <span>Bittu</span>
+      <span>Samiran</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">04:00 - 06:00</div>
+    <div class="td">
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+    <div class="th">06:00 - 08:00</div>
+    <div class="td">
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+      <span>...</span>
+    </div>
+  </div> <!-- .day 4 -->
+
+</div>
+
+<!-- jQuery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+	function systemTime() {
+	  let currentDate = new Date();
+	  let hours = currentDate.getHours();
+	  let minutes = currentDate.getMinutes();
+	  let seconds = currentDate.getSeconds();
+	  let amOrPm = hours < 12 ? "AM" : "PM";
+
+	  let formattedHours = hours % 12 || 12;
+	  let formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
+	  let formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
+
+	  return `${formattedHours}:${formattedMinutes}:${formattedSeconds} ${amOrPm}`;
+	}
+
+	setInterval(() => {
+	  let sysTime = systemTime();
+	  $("time").text(sysTime);
+	}, 1000);
+
+	// Step 1: Get the current week day
+	const currentDay = new Date()
+	  .toLocaleString("en-us", { weekday: "short" })
+	  .toUpperCase();
+
+	// Step 2: Select the <div> element(s) with the data-day attribute equal to the current week day
+	const dayDiv = document.querySelector(`div[data-day="${currentDay}"]`);
+
+	// Step 3: Remove the hidden class from the selected <div> element(s)
+	dayDiv.classList.add("pulse");
+	$(".day").text(currentDay);
+
+</script>
+</body>
+</html>
